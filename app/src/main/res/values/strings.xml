@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Gym UI</string>
+    <string name="Text1">Welcome to \n <font color='#7265E3'>Momotaro</font> UI Kit</string>
+    <string name="Text2">The best UI Kit for your next \n health and fitness project!</string>
+    <string name="Text3">Already have account? <font color='#7265E3'>Sign in</font></string>
 </resources>
