@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/level1"
+            android:src="@drawable/level1go" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="#7265E3"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="STEP 1/7"
+        android:textColor="#7265E3"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/start"
+        android:textColor="#2D3142"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="Number we can use to reach you"
+        android:textColor="#4C5980"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+62" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down" />
+
+            <EditText
+                android:hint="Enter Your Num"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:onClick="clickverifynow"
+        android:id="@+id/verifynow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:text="Verify Now"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

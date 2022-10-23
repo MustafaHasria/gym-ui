@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".verification">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/level1"
+            android:src="@drawable/level1go" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Skip"
+            android:textColor="#7265E3"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+<ImageView
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:layout_width="219dp"
+    android:layout_height="219dp"
+    android:src="@drawable/im2"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="STEP 1/7"
+        android:textColor="#7265E3"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enable Fingerprint"
+        android:textColor="#2D3142"
+        android:textSize="24sp" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ifs"
+        android:textColor="#4C5980"
+        android:textSize="16sp" />
+
+    <Button
+        android:onClick="clickactivate"
+        android:id="@+id/verifynow"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:text="Activate"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white" />
+</LinearLayout>

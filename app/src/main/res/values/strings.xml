@@ -3,4 +3,6 @@
     <string name="Text1">Welcome to \n <font color='#7265E3'>Momotaro</font> UI Kit</string>
     <string name="Text2">The best UI Kit for your next \n health and fitness project!</string>
     <string name="Text3">Already have account? <font color='#7265E3'>Sign in</font></string>
+    <string name="start">Let’s start with your \n mobile number</string>
+    <string name="ifs">If you enable touch ID, you don’t \n need to enter your password when \n you login.</string>
 </resources>

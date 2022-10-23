@@ -1,14 +1,14 @@
 package com.mustafahasria.gymui;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
+public class mobile_phone extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +16,11 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_main);
-        Intent intent=new Intent(MainActivity.this,mobile_phone.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_mobile_phone);
+
     }
-    public void clickgetstarted(View view){
-        Intent intent=new Intent(MainActivity.this,mobile_phone.class);
+    public void clickverifynow(View view){
+        Intent intent=new Intent(mobile_phone.this,verification.class);
         startActivity(intent);
     }
 }
