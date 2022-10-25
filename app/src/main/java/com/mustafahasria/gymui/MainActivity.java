@@ -17,11 +17,9 @@ public class MainActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
-        Intent intent=new Intent(MainActivity.this,mobile_phone.class);
-        startActivity(intent);
     }
-    public void clickgetstarted(View view){
-        Intent intent=new Intent(MainActivity.this,mobile_phone.class);
+    public void clickGetStarted(View view){
+        Intent intent=new Intent(MainActivity.this, MobilePhone.class);
         startActivity(intent);
     }
 }

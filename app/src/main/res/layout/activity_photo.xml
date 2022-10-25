@@ -61,6 +61,9 @@
 
 <androidx.recyclerview.widget.RecyclerView
     android:layout_gravity="center"
+    android:orientation="horizontal"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    tools:listitem="@layout/profile_list_item"
     android:id="@+id/main_recycler_view_profiles"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">

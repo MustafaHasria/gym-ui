@@ -29,7 +29,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".mobile_phone"
+            android:name=".MobilePhone"
             android:exported="false"
             android:theme="@style/Theme.MaterialComponents.Light">
             <meta-data

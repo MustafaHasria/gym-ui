@@ -1,14 +1,14 @@
 package com.mustafahasria.gymui;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class mobile_phone extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MobilePhone extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +19,8 @@ public class mobile_phone extends AppCompatActivity {
         setContentView(R.layout.activity_mobile_phone);
 
     }
-    public void clickverifynow(View view){
-        Intent intent=new Intent(mobile_phone.this,verification.class);
+    public void clickVerifyNow(View view){
+        Intent intent=new Intent(MobilePhone.this,verification.class);
         startActivity(intent);
     }
 }
